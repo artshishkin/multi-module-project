@@ -16,6 +16,7 @@
         <module>from-intellij</module>
         <module>web-api-json</module>
         <module>web-api-xsd</module>
+        <module>converters</module>
     </modules>
 
     <properties>
