@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.artarkatesoft</groupId>
             <artifactId>converters</artifactId>
-            <version>${revision}</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>
