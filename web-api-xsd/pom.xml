@@ -27,10 +27,10 @@
             </executions>
             <configuration>
                 <sources>
-                    <source>src/main/resources</source>
+                    <source>src/main/resources/xsd</source>
                 </sources>
                 <!-- The package of your generated sources -->
-                <packageName>com.artarkatesoft.mygens</packageName>
+<!--                <packageName>com.artarkatesoft.mygens</packageName>-->
             </configuration>
         </plugin>
     </plugins>
