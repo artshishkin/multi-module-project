@@ -6,9 +6,9 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 @Mapper
-public interface UserConverter {
+public interface UserMapper {
 
-    UserConverter INSTANCE = Mappers.getMapper(UserConverter.class);
+    UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 
     User toUser(UserCommand userCommand);
 
